@@ -1,0 +1,10 @@
+server:
+ port: 1006
+spring:
+ cloud:
+   nacos:
+    discovery:
+      server-addr: localhost:8848
+      namespace: 49d27730-dd4a-49ff-8bd2-912b7375060a
+ application:
+    name:  nacos-discovery
